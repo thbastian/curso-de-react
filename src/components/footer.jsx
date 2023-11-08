@@ -1,4 +1,3 @@
-import '../App.css';
 const Footer = () => {
     return (
         <footer className="pie-pagina" data-aos="zoom-in-up">

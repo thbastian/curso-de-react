@@ -1,4 +1,3 @@
-import '../App.css';
 const NavBar = () => {
     return (
         <header>
@@ -6,11 +5,12 @@ const NavBar = () => {
             <div>
                 <ul>
                 <li>
-                <button>inicio</button>
-                <button>productos</button>
                 <button>sobre nosotros</button>
-                <button>redes sociales</button>
-                <button>carrito</button>
+                <button>sillas</button>
+                <button>mesas</button>
+                <button>muebles de jardin</button>
+                <button>muebles de cocina</button>
+                <button>carrito: 0</button>
                 </li>
                 </ul>
             </div>
