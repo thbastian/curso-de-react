@@ -2,7 +2,7 @@ const Footer = () => {
     return (
         <footer className="pie-pagina" data-aos="zoom-in-up">
             <div className="grupo-1">
-                <div className="box">
+                <div className="boxx">
                     <h2>SOBRE NOSOTROS</h2>
                     <p>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat
