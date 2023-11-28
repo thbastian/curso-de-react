@@ -1,4 +1,4 @@
-header {
+#header {
   background-color: #222;
   color: white;
   display: flex;
@@ -7,10 +7,29 @@ header {
   padding: 0.5rem 2rem;
 }
 
-header ul {
+#header ul {
   display: flex;
   align-items: center;
   list-style: none;
+}
+.card-content{
+  text-align: center;
+}
+#agregar{
+  background-color: rgba(97, 226, 97, 0.687);
+  padding: 5px 10px;
+  border: unset;
+  border-radius:0.5rem;
+  margin: 5px;
+}
+
+#agregar:hover{
+  translate: o -10px;
+  box-shadow: 0 10px 5px rgba(0, 0, 0, 0.1);
+  transition: 200ms;
+}
+#ti{
+  text-align: center;
 }
 footer {
   background-color: #000;

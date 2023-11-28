@@ -1,6 +1,6 @@
 const NavBar = () => {
     return (
-        <header>
+        <header id="header">
                 <h3>muebleria v</h3>
             <div>
                 <ul>
@@ -10,7 +10,7 @@ const NavBar = () => {
                 <button>mesas</button>
                 <button>muebles de jardin</button>
                 <button>muebles de cocina</button>
-                <button>carrito: 5</button>
+                <button>carrito: 0</button>
                 </li>
                 </ul>
             </div>
