@@ -1,16 +1,14 @@
 import './App.css';
-import NavBar from './components/NavBar/NavBar';
+import ItemListNavBar from './components/NavBar/ItemListNavBar';
 import ApiBar from './components/SearchBar/ApiBar';
 import Footer from './components/footer';
-import Producto from './components/main';
+
 
 function App() { 
   return (
     <div>
-      <NavBar/>
+      <ItemListNavBar/>
       <ApiBar/>
-      <h1 id= "ti"className='title'>Nuestros Productos:</h1>
-      <Producto/>
       <Footer/>
     </div>
   );

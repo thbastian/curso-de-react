@@ -1,20 +1,18 @@
-const NavBar = () => {
+import { Link } from 'react-router-dom';
+
+
+
+function NavBar(){
     return (
-        <header id="header">
+        <nav id="header">
                 <h3>muebleria v</h3>
-            <div>
-                <ul>
-                <li>
-                <button>sobre nosotros</button>
-                <button>sillas</button>
-                <button>mesas</button>
-                <button>muebles de jardin</button>
-                <button>muebles de cocina</button>
-                <button>carrito: 0</button>
-                </li>
-                </ul>
-            </div>
-        </header>
+                <Link to="/">Inicio</Link>
+                <Link to="mesas">Mesas</Link>
+                <Link to="sillas">Sillas</Link>
+                <Link to="productos">Productos</Link>
+                <Link to="contactanos">Contactanos</Link>
+                <Link to="carrito">Carrito: 0</Link>
+        </nav>
     )
 }
 export default NavBar;
